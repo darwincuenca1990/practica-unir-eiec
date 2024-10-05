@@ -32,7 +32,7 @@ if __name__ == "__main__":
         print("The second argument indicates whether you want to eliminate duplicates")
         sys.exit(1)
 
-    print(f"Se leerán las palabras del fichero {filename}")
+    print(f"The words from the file will be read {filename}")
     file_path = os.path.join(".", filename)
     if os.path.isfile(file_path):
         word_list = []
